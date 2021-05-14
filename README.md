@@ -2,13 +2,13 @@ Setting up your development environment on your local machine :
 
 $ git clone https://bitbucket.org/DulanN/school_billing
 
-composer update
+$ composer update
 
-php artisan key:generate
+$ php artisan key:generate
 
-php artisan migrate --seed
+$ php artisan migrate:fresh --seed
 
-php artisan serve
+$ php artisan serve
 
 
 EER diagram:
