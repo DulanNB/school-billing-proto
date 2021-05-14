@@ -38,6 +38,8 @@ Route::post('/course_store', 'CourseController@course_store')->name('course.stor
 Route::delete('/course_destroy/{id}', 'CourseController@course_destroy')->name('course.destroy');
 
 
+
+
 });
 
 Auth::routes();
