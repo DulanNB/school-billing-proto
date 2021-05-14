@@ -10,4 +10,6 @@ php artisan migrate --seed
 
 php artisan serve
 
+
+EER diagram:
 ![](public/img/eer.PNG)
